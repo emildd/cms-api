@@ -1,0 +1,30 @@
+{
+  "name": "cms-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emildd/cms-api.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "emyl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emildd/cms-api/issues"
+  },
+  "homepage": "https://github.com/emildd/cms-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.6",
+    "mysql": "^2.18.1",
+    "objection": "^2.2.15"
+  }
+}
