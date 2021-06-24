@@ -1,5 +1,5 @@
 FROM node:14-alpine 
-LABEL Name=cms-api Version=1.0
+LABEL Name=cms-api Version=1.0 Desc=api
 
 WORKDIR /app 
 
