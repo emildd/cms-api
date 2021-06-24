@@ -1,5 +1,3 @@
-const { default: knex } = require("knex");
-
 exports.up = async function(knex) {
     await knex.schema.createTable('users',function(table){
         table.bigIncrements('id').primary();
@@ -10,7 +8,6 @@ exports.up = async function(knex) {
         table.timestamp('updated_at').defaultTo(knex.fn.now());
     })
 };
-
 exports.down = async function(knex) {
   await knex.schema.dropTableIfExists('users');
 };
